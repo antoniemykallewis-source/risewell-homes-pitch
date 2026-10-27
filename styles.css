@@ -81,3 +81,6 @@
 /* Screenshot evidence added to the approved Vessel design. */
 .findings-slide .slide-inner{justify-content:flex-start}.findings-slide .audit-row{grid-template-columns:44px minmax(0,1fr) minmax(280px,42%);gap:22px;align-items:center;padding:22px 0}.findings-slide .row-content{display:block}.evidence{transform:rotate(1deg);margin:0}.evidence img{width:100%;height:210px;object-fit:contain;background:white}.evidence figcaption{padding:7px 9px;font-size:7px;border-top:1px solid var(--ink)}
 @media(max-width:760px){.findings-slide .audit-row{grid-template-columns:30px minmax(0,1fr);gap:12px}.findings-slide .row-content{display:block;grid-column:2}.findings-slide .evidence{grid-column:1/-1}.evidence img{height:auto;max-height:300px}.findings-slide .row-content p{font-size:14px}.findings-slide .row-source{font-size:7px}}
+
+/* Review fit: two evidence rows stay inside a 1440×900 desktop viewport. */
+@media(min-width:761px){.findings-slide .evidence img{height:180px}}
